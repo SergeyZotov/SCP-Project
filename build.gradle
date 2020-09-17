@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.7.0'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.11.2'
+    implementation 'org.projectlombok:lombok:1.18.12'
+    implementation 'org.springframework:spring-core:5.2.9.RELEASE'
+    testCompile 'io.rest-assured:rest-assured:4.3.1'
+    implementation 'org.apache.logging.log4j:log4j:2.13.3'
+}
