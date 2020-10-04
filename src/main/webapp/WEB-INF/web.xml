@@ -4,12 +4,4 @@
       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <display-name>A Simple Web Application</display-name>
-    <servlet>
-        <servlet-name>app</servlet-name>
-        <servlet-class>srcproject.servlets.App</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>app</servlet-name>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
 </web-app>
